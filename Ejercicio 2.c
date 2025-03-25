@@ -1,12 +1,13 @@
+
 #include <stdio.h>
 
 int main()
 {
-   int i=10;
+   int i=1;
    int n;
        
 {
-    while(i>10,i--)
+    while(i<=10)
     {
 printf("ingrese un valor;\n");
 scanf("%u",&n);
@@ -27,6 +28,7 @@ scanf("%u",&n);
             }
         }
     }
+    i=i+1;
     }
 }
 
