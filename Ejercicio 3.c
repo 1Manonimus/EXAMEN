@@ -8,7 +8,7 @@ printf ("ingresar los valores, esté se mostrara hasta que la suma supere 78500\
  printf ("ingrese los número que quiere sumar;\n");
 
 {  
-    while(sum<78500)
+    while(sum<=78500)
     {
         scanf("%u",&a);
     
