@@ -22,3 +22,37 @@ printf("El maximo común divisor es;%d\n",b);
     
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+int a;
+int b;
+int R=0;
+int max=0;
+int pros=0;
+
+    printf("instroduce dos números a los que se deseé obtener el maximo común divisor\n");
+    printf("intruce el primer valor\n");
+    scanf("%d",&a);
+    printf("introduce el segundo valor\n");
+    scanf("%d",&b);
+
+pros=b/a;
+R=b%a;
+
+
+if(R=0)
+{
+    pros=b;
+    max=a;
+}
+
+
+printf("el maximo común divisor es;%d\n",max);
+}
