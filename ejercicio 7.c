@@ -41,7 +41,7 @@ int main()
     }
     }
     {
-    if(mul !=0)
+    if(mul !=1)
     {
         printf("la multiplicación de las impares es; %d\n",mul);
     }
